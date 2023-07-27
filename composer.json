@@ -3,7 +3,7 @@
     "description": "Фильтрация модели Eloquent Laravel основе данных модели.",
     "homepage": "https://github.com/forest-lynx/laravel-filterable-light",
     "minimum-stability": "dev",
-    "version": "0.0.1-dev",
+    "version": "0.0.1-alpha",
     "type": "library",
     "license": "MIT",
     "autoload": {
