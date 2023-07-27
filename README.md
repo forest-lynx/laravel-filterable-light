@@ -19,14 +19,14 @@
 Команда для установки:
 
 ```bash
-$ composer require forest-lynx/laravel-filterable-light
+composer require forest-lynx/laravel-filterable-light
 ```
 
 ## Настройка
 
 Если необходимо опубликуйте файла конфигурации выполнив команду:
 ```bash
-$ php artisan vendor:publish --tag=filterable-light-config
+php artisan vendor:publish --tag=filterable-light-config
 ```
 Или вы можете осуществить настройку переменных пакета в вашем конфигурационном файле (`.env`).
 
