@@ -1,0 +1,54 @@
+{
+    "name": "forest-lynx/laravel-filterable",
+    "description": "Фильтрация модели Eloquent Laravel основе данных модели.",
+    "homepage": "https://github.com/forest-lynx/laravel-filterable",
+    "minimum-stability": "dev",
+    "version": "0.0.1-dev",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ForestLynx\\FilterableLight\\": "./src"
+        },
+        "files":[
+            "./src/helpers.php"
+        ]
+    },
+    "autoload-dev": {},
+    "authors": [
+        {
+            "name": "Дмитрий",
+            "email": "trot505@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/contracts": "^9.0 || ^10.0",
+        "illuminate/support": "^9.0 || ^10.0",
+        "illuminate/database": "^9.0 || ^10.0",
+        "symfony/yaml": "^6.3",
+        "illuminate/testing": "^9.0 || ^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "extra": {
+        "laravel": {
+                "providers": [
+                    "ForestLynx\\FilterableLight\\Providers\\FilterableServiceProvider"
+                ]
+            }
+        },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php vendor/bin/testbench package:discover --ansi"
+        ]
+    },
+    "prefer-stable": true
+}
