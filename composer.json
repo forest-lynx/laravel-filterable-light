@@ -1,7 +1,7 @@
 {
     "name": "forest-lynx/laravel-filterable-light",
     "description": "Фильтрация модели Eloquent Laravel основе данных модели.",
-    "homepage": "https://github.com/forest-lynx/laravel-filterable",
+    "homepage": "https://github.com/forest-lynx/laravel-filterable-light",
     "minimum-stability": "dev",
     "version": "0.0.1-dev",
     "type": "library",
