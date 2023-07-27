@@ -84,7 +84,7 @@ class GeneratingFiltersForModel
         switch ($operator) {
             case OperatorType::BETWEEN:
             case OperatorType::NOT_BETWEEN:
-                $result = $this->stepTok('&');
+                $result = $this->stepTok('|');
                 throw_if(empty($result) || count($result) !== 2, ValidationFieldException::create($field, $value));
                 $val = $result;
                 break;
