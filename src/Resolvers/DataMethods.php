@@ -24,7 +24,7 @@ class DataMethods
     public static function create(Model $model): self
     {
 
-        $attributeNamespace = "ForestLynx\\Filterable\\Attributes";
+        $attributeNamespace = "ForestLynx\\FilterableLight\\Attributes";
 
         $reflection = new ReflectionClass($model);
 
