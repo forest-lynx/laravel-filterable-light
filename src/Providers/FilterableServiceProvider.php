@@ -18,7 +18,7 @@ class FilterableServiceProvider extends ServiceProvider
     public function boot()
     {
         /* Add config file */
-        $this->mergeConfigFrom([
+        $this->publishes([
             __DIR__ . "/../../config/{$this->namespace}.php" => \config_path("{$this->namespace}.php"),
         ], 'filterable-light-config');
     }
