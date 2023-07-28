@@ -71,7 +71,7 @@ class Card extends Model{
 Примеры использования:
 ```php
 //...
-use ForestLynx\Filterable\Attributes\FilteringBlocked;
+use ForestLynx\FilterableLight\Attributes\FilteringBlocked;
 
 class Product extends Model{
     use HasFilterable;
